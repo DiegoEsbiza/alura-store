@@ -7,7 +7,7 @@
     "contenido"
     "rodapie";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto 50px;
 
 }
 
@@ -38,6 +38,11 @@
     padding: 0 2rem;
 }
 
-.rodapie {
+.footer {
+    background: #fdfdfd;
+    color: #333333;
     grid-area: rodapie;
+    padding: 1rem;
+    text-align: center;
+
 }
